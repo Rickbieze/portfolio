@@ -55,8 +55,12 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
+            <div class="hwrapper">
             <h1 class = "h1Class">Rick's Portfolio</h1>
-            <h3>Scroll down to find out more about me!</h3>
+            <div class="h3wrapper">
+                <h3 class="h3Class">"To hell with circumstances; I create opportunities." - Bruce Lee</h3>
+            </div>
+            </div>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
