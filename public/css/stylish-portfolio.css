@@ -186,25 +186,13 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: red !important;
 }
 
 .service-item {
     margin-bottom: 30px;
 }
 
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 /* Portfolio */
 
@@ -254,6 +242,7 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-color: red;
 }
 
 #to-top {
