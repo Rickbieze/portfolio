@@ -87,67 +87,22 @@
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
                 <h2>Mijn competenties</h2>
-                <hr class="small">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
+
                         <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                            <h4>
-                                <strong>Service Name</strong>
-                            </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-light">Learn More</a>
+                            <div class="chart" id="graph" data-percent="50"></div>
+
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
+
                         <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                            <h4>
-                                <strong>Service Name</strong>
-                            </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-light">Learn More</a>
+                            <div class="chart" id="graph" data-percent="50"></div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                            <h4>
-                                <strong>Service Name</strong>
-                            </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-light">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                            <h4>
-                                <strong>Service Name</strong>
-                            </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-light">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row (nested) -->
+
             </div>
-            <!-- /.col-lg-10 -->
+                <!-- /.row (nested) -->
         </div>
-        <!-- /.row -->
+            <!-- /.col-lg-10 -->
     </div>
+        <!-- /.row -->
     <!-- /.container -->
 </section>
 
@@ -335,6 +290,51 @@
     }
     // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
+// progress circle
+
+    var el = document.getElementById('graph'); // get canvas
+
+    var options = {
+        percent:  el.getAttribute('data-percent') || 25,
+        size: el.getAttribute('data-size') || 220,
+        lineWidth: el.getAttribute('data-line') || 15,
+        rotate: el.getAttribute('data-rotate') || 0
+    }
+
+    var canvas = document.createElement('canvas');
+    var span = document.createElement('span');
+    span.setAttribute("id", "circleSpan");
+    span.textContent = options.percent + '%' + 'html';
+
+    if (typeof(G_vmlCanvasManager) !== 'undefined') {
+        G_vmlCanvasManager.initElement(canvas);
+    }
+
+    var ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = options.size;
+
+    el.appendChild(span);
+    el.appendChild(canvas);
+
+    ctx.translate(options.size / 2, options.size / 2); // change center
+    ctx.rotate((-1 / 2 + options.rotate / 180) * Math.PI); // rotate -90 deg
+
+    //imd = ctx.getImageData(0, 0, 240, 240);
+    var radius = (options.size - options.lineWidth) / 2;
+
+    var drawCircle = function(color, lineWidth, percent) {
+        percent = Math.min(Math.max(0, percent || 1), 1);
+        ctx.beginPath();
+        ctx.arc(0, 0, radius, 0, Math.PI * 2 * percent, false);
+        ctx.strokeStyle = color;
+        ctx.lineCap = 'round'; // butt, round or square
+        ctx.lineWidth = lineWidth
+        ctx.stroke();
+    };
+
+    drawCircle('#efefef', options.lineWidth, 100 / 100);
+    drawCircle('#6194bc', options.lineWidth, options.percent / 100);
+
 </script>
 
 </body>
