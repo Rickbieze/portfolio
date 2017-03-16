@@ -74,6 +74,7 @@
             <div class="col-lg-12 text-center">
                 <h2>Wie ben ik?</h2>
                 <p class="lead">blablabla</p>
+
             </div>
         </div>
         <!-- /.row -->

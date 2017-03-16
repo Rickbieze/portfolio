@@ -274,8 +274,6 @@ footer {
     width:220px; height:400px;
 }
 canvas {
-    display: block;
-    position:absolute;
     top:0;
     left:0;
 }
