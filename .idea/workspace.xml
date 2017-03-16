@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="246474a3-fcdf-41c9-bb75-368883f5efe2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/public/css/stylish-portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/progress.js" afterPath="$PROJECT_DIR$/public/js/progress.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
     </list>
     <ignored path="portfolio.iws" />
@@ -36,17 +34,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+            <state relative-caret-position="691">
+              <caret line="307" column="45" selection-start-line="307" selection-start-column="45" selection-end-line="307" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylish-portfolio.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylish-portfolio.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="719">
@@ -81,8 +79,8 @@
       <file leaf-file-name="progress.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/progress.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -112,8 +110,8 @@
         <option value="$USER_HOME$/Dropbox/prive/Jaar 2/portfolio/progress.js" />
         <option value="$PROJECT_DIR$/public/js/progress.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -354,12 +352,12 @@
       <workItem from="1486213418704" duration="3608000" />
       <workItem from="1486371852710" duration="8183000" />
       <workItem from="1489478258008" duration="3946000" />
-      <workItem from="1489688589047" duration="741000" />
+      <workItem from="1489688589047" duration="3103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18627000" />
+    <option name="totallyTimeSpent" value="20989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -570,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -622,18 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/progress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        <state relative-caret-position="719">
+          <caret line="275" column="8" selection-start-line="275" selection-start-column="8" selection-end-line="275" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -646,18 +637,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolio.css">
+    <entry file="file://$PROJECT_DIR$/public/js/progress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="275" column="8" selection-start-line="275" selection-start-column="8" selection-end-line="275" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="307" column="45" selection-start-line="307" selection-start-column="45" selection-end-line="307" selection-end-column="45" />
           <folding />
         </state>
       </provider>
