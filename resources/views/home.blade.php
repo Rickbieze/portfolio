@@ -13,8 +13,9 @@
     <link href="../public/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
     <link href="../public/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <script src = "../public/js/progress.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -88,14 +89,28 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <h2>Mijn competenties</h2>
 
-                        <div class="service-item">
-                            <div class="chart" id="graph" data-percent="50"></div>
-
-                        </div>
-
-                        <div class="service-item">
-                            <div class="chart" id="graph" data-percent="50"></div>
-                        </div>
+                <div id="bars">
+                    <div class="bar" data-percent="70">
+                        <h3>CSS</h3>
+                        <canvas class="bar-circle" width="70" height="70"></canvas>
+                    </div>
+                    <div class="bar" data-percent="55">
+                        <h3>HTML5</h3>
+                        <canvas class="bar-circle" width="70" height="70"></canvas>
+                    </div>
+                    <div class="bar" data-percent="65">
+                        <h3>JavaScript</h3>
+                        <canvas class="bar-circle" width="70" height="70"></canvas>
+                    </div>
+                    <div class="bar" data-percent="88">
+                        <h3>PHP</h3>
+                        <canvas class="bar-circle" width="70" height="70"></canvas>
+                    </div>
+                    <div class="bar" data-percent="77">
+                        <h3>Server</h3>
+                        <canvas class="bar-circle" width="70" height="70"></canvas>
+                    </div>
+                </div>
 
             </div>
                 <!-- /.row (nested) -->
