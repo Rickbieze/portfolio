@@ -14,6 +14,7 @@
     <link href="../public/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="../public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/stylish-portfolioJSGame.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <script src = "../public/js/progress.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,15 +56,12 @@
 
 <!-- Header -->
 <header id="top" class="header">
-    <div class="text-vertical-center">
+    <div class="text-vertical-center" >
         <div class="hwrapper">
-            <h1 class = "h1Class">Rick's Portfolio</h1>
-            <div class="h3wrapper">
-                <h3 class="h3Class">"To hell with circumstances; I create opportunities." - Bruce Lee</h3>
-            </div>
+            <h1 class = "h1Class">Javascript Game</h1>
         </div>
         <br>
-        <a href="#about" class="btn btn-dark btn-lg">Meer over mij</a>
+        <a href="#about" class="btn btn-dark btn-lg">Details</a>
     </div>
 </header>
 
@@ -151,7 +149,7 @@
                     <div class="col-md-6">
                         <div class="portfolio-item">
                             <h2>Javascript game</h2>
-                            <a href="jsgame">
+                            <a href="#">
                                 <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
                             </a>
                         </div>

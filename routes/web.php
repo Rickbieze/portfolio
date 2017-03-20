@@ -22,3 +22,7 @@ Route::get('/home', function () {
 Route::get('/competenties', function () {
     return view('competenties');
 });
+
+Route::get('/jsgame', function () {
+    return view('jsgame');
+});
