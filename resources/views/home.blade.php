@@ -72,9 +72,22 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Wie ben ik?</h2>
-                <p class="lead">blablabla</p>
-
+                <h2>Rick who?</h2>
+                <p class="lead">Hallo en welkom op mijn portfolio! Mijn naam is Rick Bieze, ik ben 23 jaar en woon in Stadskanaal. Ik zit momenteel in het 2e jaar van mijn studie Software Engineering. In mijn vrije tijd ben ik graag bezig met het customizen van mijn pc, daarnaast ben ik een fanatieke gamer. Ook werk ik graag aan mijn eigen game ontwerpen en probeer ik deze te realiseren. In het weekend ben ik vaak bij mijn vriendin in Nijmegen. Verder beschrijf ik mezelf als een rustige jongen met veel interesse voor software en techniek. Op dit portfolio is meer informatie over mij en mijn gemaakte software/opdrachten te vinden.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="portfolio-item">
+                    <a href="img/profielpic.jpg">
+                        <img class="img-portfolio img-responsive" src="img/profielpic.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="portfolio-item">
+                    <a href="img/pc.jpg">
+                        <img class="img-portfolio img-responsive" src="img/pc.jpg">
+                    </a>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -88,7 +101,9 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
-                <h2>Mijn competenties</h2>
+                <a class ="competentieLink" href="competenties"> <h2>Mijn vaardigheden/competenties</h2>
+                    <hr class="small">
+                </a>
 
                 <div id="bars">
                     <div class="bar" data-percent="80">
@@ -130,17 +145,19 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2>Our Work</h2>
+                <h2>Mijn Opdrachten/Werk</h2>
                 <hr class="small">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="portfolio-item">
+                            <h2>Javascript game</h2>
                             <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <h2>Project Snake</h2>
                         <div class="portfolio-item">
                             <a href="#">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
@@ -148,6 +165,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <h2>LoL search app</h2>
                         <div class="portfolio-item">
                             <a href="#">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
@@ -155,6 +173,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <h2>Hondsrug Portfolio systeem</h2>
                         <div class="portfolio-item">
                             <a href="#">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
