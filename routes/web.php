@@ -26,3 +26,7 @@ Route::get('/competenties', function () {
 Route::get('/jsgame', function () {
     return view('jsgame');
 });
+
+Route::get('/jsgamedemo', function () {
+    return view('jsgamedemo');
+});

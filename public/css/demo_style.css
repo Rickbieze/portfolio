@@ -1,0 +1,19 @@
+body{
+	  height:100%;
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+}
+#ZombieHead{
+	 background-image: url("GameSpritesZombie/clearLogo.PNG");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 
+}
+.bg-1 {		
+	  height:100%;
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+	  padding-top: 10px;
+}
+
+

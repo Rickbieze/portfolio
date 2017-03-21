@@ -34,16 +34,16 @@
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand">
-            <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+            <a href="home" onclick=$("#menu-close").click();>Home</a>
         </li>
         <li>
-            <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            <a href="#top" onclick=$("#menu-close").click();>Top</a>
         </li>
         <li>
             <a href="#about" onclick=$("#menu-close").click();>About</a>
         </li>
         <li>
-            <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            <a href="#competenties" onclick=$("#menu-close").click();>Competenties</a>
         </li>
         <li>
             <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
@@ -53,7 +53,6 @@
         </li>
     </ul>
 </nav>
-
 <!-- Header -->
 <header id="top" class="header">
     <div class="text-vertical-center" >
@@ -70,23 +69,31 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Rick who?</h2>
-                <p class="lead">Hallo en welkom op mijn portfolio! Mijn naam is Rick Bieze, ik ben 23 jaar en woon in Stadskanaal. Ik zit momenteel in het 2e jaar van mijn studie Software Engineering. In mijn vrije tijd ben ik graag bezig met het customizen van mijn pc, daarnaast ben ik een fanatieke gamer. Ook werk ik graag aan mijn eigen game ontwerpen en probeer ik deze te realiseren. In het weekend ben ik vaak bij mijn vriendin in Nijmegen. Verder beschrijf ik mezelf als een rustige jongen met veel interesse voor software en techniek. Op dit portfolio is meer informatie over mij en mijn gemaakte software/opdrachten te vinden.</p>
-            </div>
+                <h2>Het spel</h2>
+                <hr class="small">
+                <p class="lead">
+                    Om mij te verdiepen in Javascript hebt ik een game gemaakt. Het doel van dit spel is zo lang mogelijk in leven te blijven. Hiervoor moet de speler de zombies ontwijken of neerschieten. Een speler kan extra levens en energie kopen. Ook kan een speler nieuwe wapens kopen en upgraden verder hebben de zombies een kans om een “power-up” te droppen.Verder bevat het spel een simpel instructie scherm en kan het spel gepauzeerd worden.
+                </p>
+                <p><a href="jsgamedemo" class="btn btn-dark btn-lg">speel het spel hier</a></p>
+
+
             <div class="col-md-6">
                 <div class="portfolio-item">
-                    <a href="img/profielpic.jpg">
-                        <img class="img-portfolio img-responsive" src="img/profielpic.jpg">
+                    <h3>Ingame screenshot</h3>
+                    <a href="img/jsingame.png">
+                        <img class="img-portfolio img-responsive" src="img/jsingame.png">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
+                <h3>Pre-Game user interface</h3>
                 <div class="portfolio-item">
-                    <a href="img/pc.jpg">
-                        <img class="img-portfolio img-responsive" src="img/pc.jpg">
+                    <a href="img/pregamescreen.png">
+                        <img class="img-portfolio img-responsive" src="img/pregamescreen.png">
                     </a>
                 </div>
             </div>
+        </div>
         </div>
         <!-- /.row -->
     </div>
@@ -99,33 +106,20 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
-                <a class ="competentieLink" href="competenties"> <h2>Mijn vaardigheden/competenties</h2>
+                <h2>De code</h2>
                     <hr class="small">
-                </a>
-
-                <div id="bars">
-                    <div class="bar" data-percent="80">
-                        <h3>JavaScript</h3>
-                        <canvas class="bar-circle" width="70" height="70"></canvas>
-                    </div>
-                    <div class="bar" data-percent="76">
-                        <h3>HTML5</h3>
-                        <canvas class="bar-circle" width="70" height="70"></canvas>
-                    </div>
-                    <div class="bar" data-percent="75">
-                        <h3>PHP</h3>
-                        <canvas class="bar-circle" width="70" height="70"></canvas>
-                    </div>
-                    <div class="bar" data-percent="63">
-                        <h3>Java</h3>
-                        <canvas class="bar-circle" width="70" height="70"></canvas>
-                    </div>
-                    <div class="bar" data-percent="65">
-                        <h3>C#</h3>
-                        <canvas class="bar-circle" width="70" height="70"></canvas>
-                    </div>
-                </div>
-
+                <p>Het spel is object georiënteerd geprogrammeerd, elke class is verantwoordelijk voor zijn eigen dingen. Deze classes zijn vervolgens in de game class bij elkaar gevoegd om het spel te creëren. Er is geen gebruik gemaakt van een framework of iets dergelijks, alle javascript code is “from scratch” geprogrammeerd.
+                    Het spel bestaat uit de volgende classes:
+                    •	Animate
+                    •	Game
+                    •	Monster
+                    •	PerkMachine
+                    •	Player
+                    •	Sound
+                    •	Weapon
+                </p>
+                <h3>Animate Class</h3>
+            <p></p>
             </div>
                 <!-- /.row (nested) -->
         </div>

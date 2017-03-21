@@ -33,16 +33,16 @@
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand">
-            <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+            <a href="home" onclick=$("#menu-close").click();>Home</a>
         </li>
         <li>
-            <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            <a href="#top" onclick=$("#menu-close").click();>Top</a>
         </li>
         <li>
             <a href="#about" onclick=$("#menu-close").click();>About</a>
         </li>
         <li>
-            <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            <a href="#competenties" onclick=$("#menu-close").click();>Competenties</a>
         </li>
         <li>
             <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
@@ -97,7 +97,7 @@
 
 <!-- Services -->
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-<section id="services" class="services bg-primary">
+<section id="competenties" class="services bg-primary">
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
