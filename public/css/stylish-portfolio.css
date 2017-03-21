@@ -177,6 +177,7 @@ hr.small {
     opacity: 0.80;
 }
 
+
 /* About */
 
 .about {
@@ -268,6 +269,9 @@ footer {
 .h1Class{
     color: #ff1a44;
 }
+.intro_head{
+    color: #cd173c!important;
+}
 
 .graph {
     position:relative;
@@ -293,3 +297,7 @@ canvas {
     color: #f4ffe8 !important;
 }
 
+#cv{
+    height: 1350px!important;
+    padding-bottom: 100px;
+}

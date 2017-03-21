@@ -74,6 +74,49 @@
                 <p class="lead">
                     Om mij te verdiepen in Javascript hebt ik een game gemaakt. Het doel van dit spel is zo lang mogelijk in leven te blijven. Hiervoor moet de speler de zombies ontwijken of neerschieten. Een speler kan extra levens en energie kopen. Ook kan een speler nieuwe wapens kopen en upgraden verder hebben de zombies een kans om een “power-up” te droppen.Verder bevat het spel een simpel instructie scherm en kan het spel gepauzeerd worden.
                 </p>
+                <table>
+                    <tr>
+                        <th>Features speler</th>
+                        <th>Features monsters</th>
+                        <th>Overig</th>
+                    </tr>
+                    <tr>
+                        <td>• schieten</td>
+                        <td>• naar de speler lopen</td>
+                        <td>• zombies kunnen gedood worden</td>
+                    </tr>
+                    <tr>
+                        <td>• lopen</td>
+                        <td>• speler shade toebrengen</td>
+                        <td>• max 10 zombies tegelijk</td>
+                    </tr>
+                    <tr>
+                        <td>• wapens/ammo kopen</td>
+                        <td>• power-ups droppen</td>
+                        <td>• elke wave komt er 1 zombie bij</td>
+                    </tr>
+                    <tr>
+                        <td>• extra leven/energy kopen</td>
+                        <td>• kans op "boss" zombie</td>
+                        <td>• spel kan gepauzeerd worden</td>
+                    </tr>
+                    <tr>
+                        <td>• stroom aanzetten</td>
+                        <td>• speler blokkeren</td>
+                        <td>• speler kan gedood worden</td>
+                    </tr>
+                    <tr>
+                        <td>• wapen upgraden</td>
+                        <td>• speler langzamer laten lopen</td>
+                    </tr>
+                    <tr>
+                        <td>• power-ups pakken</td>
+                        <td>• elke wave sterker</td>
+                    </tr>
+                </table>
+                <br>
+
+
                 <p><a href="jsgamedemo" class="btn btn-dark btn-lg">speel het spel hier</a></p>
 
 
@@ -116,9 +159,15 @@
                     •	PerkMachine
                     •	Player
                     •	Sound
-                    •	Weapon
+                    •	Weapon.
                 </p>
-                <h3>Animate Class</h3>
+                <a href="../public/js/animate.js"><h3>Animate Class</h3></a>
+                <a href="../public/js/game.js"><h3>Game Class</h3></a>
+                <a href="../public/js/monsters.js"><h3>Monster Class</h3></a>
+                <a href="../public/js/PerkMachine.js"><h3>PerkMachine Class</h3></a>
+                <a href="../public/js/player.js"><h3>Player Class</h3></a>
+                <a href="../public/js/Sound.js"><h3>Sound Class</h3></a>
+                <a href="../public/js/Weapons.js"><h3>Weapon Class</h3></a>
             <p></p>
             </div>
                 <!-- /.row (nested) -->
@@ -137,7 +186,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2>Mijn Opdrachten/Werk</h2>
+                <h2>Galery</h2>
                 <hr class="small">
                 <div class="row">
                     <div class="col-md-6">
@@ -174,7 +223,6 @@
                     </div>
                 </div>
                 <!-- /.row (nested) -->
-                <a href="#" class="btn btn-dark">Meer</a>
             </div>
             <!-- /.col-lg-10 -->
         </div>
@@ -183,35 +231,14 @@
     <!-- /.container -->
 </section>
 
-<!-- Call to Action -->
-<aside class="call-to-action bg-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3>The buttons below are impossible to resist.</h3>
-                <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-            </div>
-        </div>
-    </div>
-</aside>
-
-<!-- Map -->
-<section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76826.3687745737!2d6.863715766519211!3d53.005548475901364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c83bb57e3000c9%3A0xb8497bdac29f4022!2sStadskanaal!5e0!3m2!1snl!2snl!4v1490049605837"></iframe>
-    <br />
-    <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-</section>
 
 <!-- Footer -->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong>Contact</strong>
-                </h4>
+                <h3><strong>Contact</strong>
+                </h3>
                 <ul class="list-unstyled">
                     <li><i class="fa fa-phone fa-fw"></i>0612191902</li>
                     <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:rick.bieze@student.stenden.com">rick.bieze@student.stenden.com</a>

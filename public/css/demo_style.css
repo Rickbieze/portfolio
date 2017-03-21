@@ -4,7 +4,7 @@ body{
       color: #ffffff;
 }
 #ZombieHead{
-	 background-image: url("GameSpritesZombie/clearLogo.PNG");
+	 background-image: url("../GameSpritesZombie/clearLogo.PNG");
 	 background-repeat: no-repeat;
 	 background-position: center;
 	 

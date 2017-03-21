@@ -52,7 +52,7 @@ Monster.prototype.spawnZombie = function() {
 //creates a boss zombie with some random numbers, spawning a boss zombie if this returns true
 function setBoss(){
 	var bossRandom1 = Math.floor(Math.random() *1000 +1);
-	var bossRandom2 = Math.floor(Math.random() *1000 +1);	
+	var bossRandom2 = Math.floor(Math.random() *1000 +1);
 	if(bossRandom1 < bossRandom2 && bossRandom1 > 900)
 	{
 		this.zName = "boss"
