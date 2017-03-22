@@ -191,33 +191,33 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="portfolio-item">
-                            <h2>Javascript game</h2>
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                            <h2>Sprite sheet van de zombie boss</h2>
+                            <a href="GameSpritesZombie/zombieBoss.png">
+                                <img class="img-portfolio img-responsive" src="GameSpritesZombie/zombieBoss.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h2>Project Snake</h2>
+                        <h2>Sprite sheet van de speler</h2>
                         <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                            <a href="GameSpritesZombie/player.png">
+                                <img class="img-portfolio img-responsive" src="GameSpritesZombie/player.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h2>LoL search app</h2>
+                        <h2>Ingame action!</h2>
                         <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/lolapp.png">
+                            <a href="img/ingame.png">
+                                <img class="img-portfolio img-responsive" src="img/ingame.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h2>Project Hondsrug Portfolio</h2>
+                        <h2>Instructie scherm</h2>
                         <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/hondsrug.png">
+                            <a href="GameSpritesZombie/instruction.png">
+                                <img class="img-portfolio img-responsive" src="GameSpritesZombie/instruction.png">
                             </a>
                         </div>
                     </div>

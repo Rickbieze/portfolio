@@ -301,3 +301,10 @@ canvas {
     height: 1350px!important;
     padding-bottom: 100px;
 }
+
+#red{
+    color: #FFFFFF;
+}
+#white{
+    color: #cd173c;
+}

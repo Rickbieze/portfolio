@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246474a3-fcdf-41c9-bb75-368883f5efe2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/demo_style.css" afterPath="$PROJECT_DIR$/public/css/demo_style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/doc/~$rriculum Vitae Rick Bieze.docx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/doc/Curriculum Vitae Rick Bieze.docx" afterPath="$PROJECT_DIR$/public/doc/Curriculum Vitae Rick Bieze.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/doc/Curriculum Vitae Rick Bieze.pdf" afterPath="$PROJECT_DIR$/public/doc/Curriculum Vitae Rick Bieze.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/public/css/stylish-portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/stylish-portfolioJSGame.css" afterPath="$PROJECT_DIR$/public/css/stylish-portfolioJSGame.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/Monsters.js" afterPath="$PROJECT_DIR$/public/js/Monsters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/competenties.blade.php" afterPath="$PROJECT_DIR$/resources/views/competenties.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/jsgame.blade.php" afterPath="$PROJECT_DIR$/resources/views/jsgame.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/jsgamedemo.blade.php" afterPath="$PROJECT_DIR$/resources/views/jsgamedemo.blade.php" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="200" column="127" selection-start-line="200" selection-start-column="127" selection-end-line="200" selection-end-column="127" />
+            <state relative-caret-position="374">
+              <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -53,10 +52,23 @@
       <file leaf-file-name="jsgame.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/jsgame.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+            <state relative-caret-position="527">
+              <caret line="218" column="70" selection-start-line="218" selection-start-column="70" selection-end-line="218" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="competenties.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/competenties.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="104" column="39" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="39" />
               <folding>
-                <element signature="e#10684#10690#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +77,8 @@
       <file leaf-file-name="jsgamedemo.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/jsgamedemo.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="427">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -75,19 +87,39 @@
       <file leaf-file-name="Monsters.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/Monsters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo_style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/demo_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="884">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+              <folding>
+                <marker date="1490170693051" expanded="true" signature="24:92" ph="//..." />
+                <marker date="1490170693051" expanded="true" signature="117:507" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="640:1257" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="1258:1429" ph="//..." />
+                <marker date="1490170693051" expanded="true" signature="1473:1740" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="1587:1725" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="1854:2248" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="2019:2227" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="2321:3091" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="2410:3039" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3275:4138" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3339:3397" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3434:3492" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3528:3586" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3622:3680" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3710:3793" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3823:3910" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="3940:4023" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4053:4136" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4247:4646" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4344:4384" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4438:4483" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4544:4594" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4601:4644" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4760:4849" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="4924:5422" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="5054:5152" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="5181:5282" ph="{...}" />
+                <marker date="1490170693051" expanded="true" signature="5317:5420" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,9 +127,11 @@
       <file leaf-file-name="stylish-portfolioJSGame.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolioJSGame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <folding>
+                <marker date="1490170693039" expanded="true" signature="8:878" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +139,8 @@
       <file leaf-file-name="animate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/animate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="86" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -125,8 +159,8 @@
       <file leaf-file-name="stylish-portfolio.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="299" column="3" selection-start-line="299" selection-start-column="3" selection-end-line="299" selection-end-column="3" />
+            <state relative-caret-position="461">
+              <caret line="308" column="19" selection-start-line="308" selection-start-column="19" selection-end-line="308" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -152,11 +186,12 @@
         <option value="$PROJECT_DIR$/public/css/demo_style.css" />
         <option value="$PROJECT_DIR$/resources/views/jsgamedemo.blade.php" />
         <option value="$PROJECT_DIR$/public/js/Monsters.js" />
-        <option value="$PROJECT_DIR$/resources/views/jsgame.blade.php" />
         <option value="$PROJECT_DIR$/public/css/stylish-portfolioJSGame.css" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/public/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/resources/views/jsgame.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/resources/views/competenties.blade.php" />
       </list>
     </option>
   </component>
@@ -170,8 +205,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,42 +339,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -348,6 +346,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,17 +436,18 @@
       <workItem from="1490092511230" duration="5466000" />
       <workItem from="1490109193358" duration="1716000" />
       <workItem from="1490113034409" duration="8916000" />
+      <workItem from="1490176291276" duration="9137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49997000" />
+    <option name="totallyTimeSpent" value="59134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -727,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/competenties.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Dropbox/prive/Jaar 2/portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -748,40 +741,56 @@
     <entry file="file://$PROJECT_DIR$/public/css/demo_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/Monsters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/animate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/jsgamedemo.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="884">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding>
+            <marker date="1490170693051" expanded="true" signature="24:92" ph="//..." />
+            <marker date="1490170693051" expanded="true" signature="117:507" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="640:1257" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="1258:1429" ph="//..." />
+            <marker date="1490170693051" expanded="true" signature="1473:1740" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="1587:1725" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="1854:2248" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="2019:2227" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="2321:3091" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="2410:3039" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3275:4138" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3339:3397" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3434:3492" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3528:3586" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3622:3680" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3710:3793" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3823:3910" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="3940:4023" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4053:4136" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4247:4646" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4344:4384" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4438:4483" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4544:4594" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4601:4644" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4760:4849" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="4924:5422" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="5054:5152" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="5181:5282" ph="{...}" />
+            <marker date="1490170693051" expanded="true" signature="5317:5420" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolioJSGame.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <marker date="1490170693039" expanded="true" signature="8:878" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -793,21 +802,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolio.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/jsgame.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="299" column="3" selection-start-line="299" selection-start-column="3" selection-end-line="299" selection-end-column="3" />
+        <state relative-caret-position="527">
+          <caret line="218" column="70" selection-start-line="218" selection-start-column="70" selection-end-line="218" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/jsgame.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
-          <folding>
-            <element signature="e#10684#10690#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="86" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/jsgamedemo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -819,11 +842,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/css/stylish-portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="200" column="127" selection-start-line="200" selection-start-column="127" selection-end-line="200" selection-end-column="127" />
+        <state relative-caret-position="461">
+          <caret line="308" column="19" selection-start-line="308" selection-start-column="19" selection-end-line="308" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/competenties.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="104" column="39" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
