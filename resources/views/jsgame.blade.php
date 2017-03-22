@@ -58,6 +58,10 @@
     <div class="text-vertical-center" >
         <div class="hwrapper">
             <h1 class = "h1Class">Javascript Game</h1>
+            <div class="h3wrapper">
+                <h3 class="h3Class">Een zombie survival game</h3>
+            </div>
+
         </div>
         <br>
         <a href="#about" class="btn btn-dark btn-lg">Details</a>

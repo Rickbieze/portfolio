@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/home', function () {
@@ -29,4 +29,8 @@ Route::get('/jsgame', function () {
 
 Route::get('/jsgamedemo', function () {
     return view('jsgamedemo');
+});
+
+Route::get('/projectSnake', function () {
+    return view('projectSnake');
 });

@@ -25,7 +25,7 @@
 
 </head>
 
-<body onload="hiding('competenties_html'),hiding('competenties_PHP')">
+<body onload="hiding('competenties_javascript'),hiding('competenties_HTMLCSS'), hiding('competenties_cSharp'), hiding('competenties_Java'),hiding('competentie_1') , hiding('competenties_overig')">
 
 <!-- Navigation -->
 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -63,16 +63,17 @@
         <a href="#competenties" class="btn btn-dark btn-lg">naar de vaardigheden</a>
     </div>
 </header>
-
-<section id="competenties" class="services bg-primary" onclick="divShower('competenties_html'),hiding('c1_plus')">
+<!-- section Javascript -->
+<section id="competenties" class="services bg-primary" onclick="divShower('competenties_javascript'),hiding('c1_plus')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="container">
-                    <h2>HTML/CSS deze</h2>
+                    <h1>Vaardigheden</h1>
+                    <h2>Javascript</h2>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            <span class="sr-only">70% Complete</span>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <span class="sr-only">80% Complete</span>
                         </div>
                     </div>
                     <div id="c1_plus">
@@ -84,33 +85,41 @@
     </div>
 </section>
 
-<section id="competenties_html" class="services bg-primary" onclick="hiding('competenties_html'), divShower('c1_plus')">
+<section id="competenties_javascript" class="services bg-primary" onclick="hiding('competenties_javascript'), divShower('c1_plus')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="container">
-                    <h2>HTML/CSSHTML/CSSHTML/CSSHTML/CSSHTML/CSSHTML</h2>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            <span class="sr-only">70% Complete</span>
+
+                        <h2>Zombie survival game</h2>
+                        <div class="portfolio-item">
+                            <a href="jsgame">
+                                <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                            </a>
                         </div>
+                    <h2>Project Snake</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
                     </div>
 
-                    <i id ="red" class="fa fa-minus fa-fw fa-3x"></i>
                 </div>
+                <i id ="red" class="fa fa-minus fa-fw fa-3x"></i>
             </div>
         </div>
     </div>
 </section>
-<section id="competenties" class="about" onclick="divShower('competenties_PHP'),hiding('c2_plus')">
+<!-- section HTML/CSS/PHP-->
+<section id="competenties" class="about" onclick="divShower('competenties_HTMLCSS'),hiding('c2_plus')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="container">
-                    <h2>PHP</h2>
+                    <h2>HTML, CSS, PHP en databases</h2>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            <span class="sr-only">70% Complete</span>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width:76%">
+                            <span class="sr-only">76% Complete</span>
                         </div>
                     </div>
                     <div id="c2_plus">
@@ -122,16 +131,247 @@
     </div>
 </section>
 
-<section id="competenties_PHP" class="about" onclick="hiding('competenties_PHP'), divShower('c2_plus')">
+<section id="competenties_HTMLCSS" class="about" onclick="hiding('competenties_HTMLCSS'), divShower('c2_plus')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="container">
-                    <h2>PHP_</h2>
+                    <h2>Project professionele website</h2>
+                    <div class="portfolio-item">
+                        <a href="jsgame">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                        </a>
+                    </div>
+                    <h2>Project Stenden portfolio</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+                    <h2>Project Hondsrug portfolio (externe opdrachtgever)</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                    <h2>Eigen portfolio</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                    <i id ="white" class="fa fa-minus fa-fw fa-3x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section c# -->
+<section id="competenties" class="services bg-primary" onclick="divShower('competenties_cSharp'),hiding('c3_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+                    <h2>C#</h2>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            <span class="sr-only">70% Complete</span>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            <span class="sr-only">65% Complete</span>
                         </div>
+                    </div>
+                    <div id="c3_plus">
+                        <i id ="red" class="fa fa-plus fa-fw fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="competenties_cSharp" class="services bg-primary" onclick="hiding('competenties_cSharp'), divShower('c3_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+
+                    <h2>Weather station</h2>
+                    <div class="portfolio-item">
+                        <a href="jsgame">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                        </a>
+                    </div>
+                    <h2>League of Legends search app</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                </div>
+                <i id ="red" class="fa fa-minus fa-fw fa-3x"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section Java -->
+<section id="competenties" class="about" onclick="divShower('competenties_Java'),hiding('c4_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+                    <h2>Java</h2>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100" style="width:63%">
+                            <span class="sr-only">63% Complete</span>
+                        </div>
+                    </div>
+                    <div id="c4_plus">
+                        <i id ="white" class="fa fa-plus fa-fw fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="competenties_Java" class="about" onclick="hiding('competenties_Java'), divShower('c4_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="jsgame">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                        </a>
+                    </div>
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                    <i id ="white" class="fa fa-minus fa-fw fa-3x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- overig -->
+<section id="competenties" class="services bg-primary" onclick="divShower('competenties_overig'),hiding('c6_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+                    <h2>Overig</h2>
+                    <div id="c6_plus">
+                        <i id ="red" class="fa fa-plus fa-fw fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="competenties_overig" class="services bg-primary" onclick="hiding('competenties_overig'), divShower('c6_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+                    <h2>overig</h2>
+                    <div class="portfolio-item">
+                        <a href="jsgame">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                        </a>
+                    </div>
+                    <h2>overig</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+                    <h2>overig</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+                    <h2>overig</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                    <i id ="red" class="fa fa-minus fa-fw fa-3x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Competenties-->
+<section id="competenties" class="about" onclick="divShower('competentie_1'),hiding('c5_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+                    <h1>Persoonlijke competenties</h1>
+                    <h2>Persoonlijke competenties</h2>
+
+                    <div id="c5_plus">
+                        <i id ="white" class="fa fa-plus fa-fw fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="competentie_1" class="about" onclick="hiding('competentie_1'), divShower('c5_plus')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="container">
+
+                    <div class="portfolio-item">
+                        <a href="jsgame">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
+                        </a>
+                    </div>
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
+                    </div>
+
+                    <h2>Java</h2>
+                    <div class="portfolio-item">
+                        <a href="projectSnake">
+                            <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
+                        </a>
                     </div>
 
                     <i id ="white" class="fa fa-minus fa-fw fa-3x"></i>
@@ -141,79 +381,6 @@
     </div>
 </section>
 
-
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2>Mijn Opdrachten/Werk</h2>
-                <hr class="small">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <h2>Javascript game</h2>
-                            <a href="jsgame">
-                                <img class="img-portfolio img-responsive" src="img/opdrachtJSGamePreview.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>Project Snake</h2>
-                        <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/opdrachtSnake.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>LoL search app</h2>
-                        <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/lolapp.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>Project Hondsrug Portfolio</h2>
-                        <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-portfolio img-responsive" src="img/hondsrug.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row (nested) -->
-                <a href="#" class="btn btn-lg btn-dark">Meer</a>
-            </div>
-            <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</section>
-
-<!-- Call to Action -->
-<aside class="call-to-action bg-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center" id = "cv">
-                <h3>Mijn CV</h3>
-                <object data="../public/doc/Curriculum Vitae Rick Bieze.pdf" type="application/pdf" width="100%" height="100%">
-                </object>
-                <a href="../public/doc/Curriculum Vitae Rick Bieze.pdf" class="btn btn-lg btn-light">Download</a>
-            </div>
-        </div>
-    </div>
-</aside>
-
-<!-- Map -->
-<section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76826.3687745737!2d6.863715766519211!3d53.005548475901364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c83bb57e3000c9%3A0xb8497bdac29f4022!2sStadskanaal!5e0!3m2!1snl!2snl!4v1490049605837"></iframe>
-    <br />
-    <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-</section>
 
 <!-- Footer -->
 <footer>
